@@ -12,7 +12,7 @@ class QuestionAdmin(admin.ModelAdmin):
 class ScoreAdmin(admin.ModelAdmin):
     list_display = ['id', 'student', 'quiz', 'max_marks', 'total_attempts']
     list_filter = ['max_marks', 'quiz', 'student']
-    search_fields = ['quiz', 'student',]
+    search_fields = ['quiz__title', 'student__email','student__username', 'max_marks']
 
 admin.site.register(Quiz, QuizAdmin)
 admin.site.register(Question, QuestionAdmin)
