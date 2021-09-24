@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block extra %} {% include 'extra.html' %} {% endblock %}
+{% block main_content %}
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">{{ quiz.title }}</h1>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Quiz Description
+                </div>
+                <!-- .panel-heading -->
+                <div class="panel-body">
+                    <div class="panel-group" id="accordion">
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                {{ quiz.description|safe }}
+                            </div>
+                            <a href="{% url 'start_quiz' quiz.user_friendly_url %}"><button type="button" class="btn btn-primary">Start Quiz</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- .panel-body -->
+                <div class="panel-body">
+                    <div class="panel-group" id="accordion">
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <p>Last Attempt : {{score.last_attempt}}</p>
+                                <p>Total Attempts : {{score.total_attempts}}</p>
+                                <p>Maximum Marks Obtained : {{score.max_marks}}</p>
+                                <p>Marks Obtained in Last Attampt : {{score.marks}}</p>
+                                <p>Passed : {{score.passed}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+</div>
+{% endblock %}

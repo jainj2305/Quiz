@@ -1,6 +1,19 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
     <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">{{ user.username }}</a>
+        <a class="navbar-brand" href="{% url 'home' %}">{{ request.user.username }}</a>
     </div>
+    <ul class="nav navbar-top-links navbar-right">
+        <li>
+            <a href="{% url 'account_logout' %}">
+                Logout
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'home' %}">
+                Dashboard
+            </a>
+        </li>
+        <!-- /.dropdown -->
+    </ul>
 </nav>

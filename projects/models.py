@@ -9,5 +9,6 @@ class Project(models.Model):
     description = RichTextUploadingField()
     allocated_to = models.ManyToManyField(settings.AUTH_USER_MODEL, blank=True)
 
+    user_friendly_url = models.SlugField(null=False, blank=False, unique=True)
     def __str__(self) -> str:
         return self.title

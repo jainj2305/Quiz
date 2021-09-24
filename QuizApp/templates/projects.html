@@ -5,22 +5,26 @@
         </div>
         <!-- /.panel-heading -->
         <div class="panel-body">
-            <ul class="timeline">
-                {% for project in projects %}
-                <li {% if forloop.counter|divisibleby:2 %} class="timeline-inverted" {% endif %}>
-                    <div class="timeline-badge"><i class="fa fa-check"></i>
-                    </div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title"><a href="#">{{ project.title }}</a></h4>
+            {% if projects|length %}
+                <ul class="timeline">
+                    {% for project in projects %}
+                    <li {% if forloop.counter|divisibleby:2 %} class="timeline-inverted" {% endif %}>
+                        <div class="timeline-badge"><i class="fa fa-check"></i>
                         </div>
-                        <div class="timeline-body">
-                            <p>{{ project.description|safe|truncatewords:50 }}</p>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title"><a href="{% url 'view_project' project.user_friendly_url %}">{{ project.title }}</a></h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>{{ project.description|safe|truncatewords:50 }}</p>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
+                    </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No project assigned to you!</p>
+            {% endif %}
         </div>
         <!-- /.panel-body -->
     </div>
