@@ -18,6 +18,10 @@ from django.urls import path
 
 from django.urls import include
 
+admin.site.site_header = "SPM administration"
+admin.site.site_title = "SPM administration"
+admin.site.index_title = "Welcome to SPM"
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ckeditor/', include('ckeditor_uploader.urls')),

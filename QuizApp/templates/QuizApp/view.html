@@ -19,7 +19,10 @@
                     <div class="panel-group" id="accordion">
                         <div id="collapseOne" class="panel-collapse collapse in">
                             <div class="panel-body">
-                                {{ quiz.description|safe }}
+                                <div>{{ quiz.description|safe }}</div>
+                                <div>Questions: {{ quiz.total_questions }}</div>
+                                <div>Maximum marks: {{ quiz.marks }}</div>
+                                <div>Passing marks: {{ quiz.passing_marks }}</div>
                             </div>
                             <a href="{% url 'start_quiz' quiz.user_friendly_url %}"><button type="button" class="btn btn-primary">Start Quiz</button></a>
                         </div>

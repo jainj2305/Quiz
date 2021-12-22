@@ -17,6 +17,7 @@ This system will manage the database and maintain a list of all student groups t
 conduct their online test and shortlist those students who have passed the eligibility criteria as set by the professors.
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -143,7 +144,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -159,7 +160,9 @@ ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_UNIQUE = True
 ACCOUNT_USERNAME_REQUIRED = False
-EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
+# ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+EMAIL_BACKEND="django.core.mail.backends.filebased.EmailBackend"
+EMAIL_FILE_PATH=os.path.join(BASE_DIR,"sent_mails")
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 CKEDITOR_UPLOAD_PATH = "ck_uploads/"
