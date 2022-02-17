@@ -34,12 +34,12 @@
         <div class="col-lg-6">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    Assigned To
+                    Basic Table
                 </div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">
                     <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover">
+                        <table class="table">
                             <thead>
                                 <tr>
                                     <th>#</th>
@@ -55,6 +55,46 @@
                                     <td>{{ user.first_name }}</td>
                                     <td>{{ user.last_name }}</td>
                                     <td>{{ user.email }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Basic Table
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>File</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for key, value in uploaded_file.items %} 
+                                <tr>
+                                    <td>{{ forloop.counter }}</td>
+                                    <td>{{key}}</td>
+                                    {% if value %}
+                                        <td>Uploaded</td>
+                                        <td><a class="btn-link" href="{% url 'upload_project_files' project.user_friendly_url key %}">Update</a></td>
+                                    {% else %}
+                                        <td>Missing</td>
+                                        <td><a class="btn-link" href="{% url 'upload_project_files' project.user_friendly_url key %}">Upload</a></td>
+                                    {% endif %}
                                 </tr>
                                 {% endfor %}
                             </tbody>

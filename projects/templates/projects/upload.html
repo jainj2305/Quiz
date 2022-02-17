@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block extra %} {% include 'extra.html' %} {% endblock %}
+{% block main_content %}
+<div id="page-wrapper">
+    <form id="file_form" class="file_form" method="post" action="" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="id_abstract">Abstract: </label>
+        <input type="file" name="abstract" id="id_abstract">
+        <label for="id_ppt">PPT: </label>
+        <input type="file" name="ppt" id="id_ppt">
+        <label for="id_report">Report: </label>
+        <input type="file" name="report" id="id_report">
+        <label for="id_srs">SRS: </label>
+        <input type="file" name="srs" id="id_srs">
+        <label for="id_project_zip">Project: </label>
+        <input type="file" name="project_zip" id="id_project_zip">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+{% endblock %}
