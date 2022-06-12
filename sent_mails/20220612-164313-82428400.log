@@ -1,0 +1,107 @@
+Content-Type: multipart/alternative; boundary="===============0388033039=="
+MIME-Version: 1.0
+Subject: [example.com] Confirm Your Email.
+From: webmaster@localhost
+To: admin@gmail.com
+Date: Sun, 12 Jun 2022 11:13:13 -0000
+Message-ID: <165503239353.8424.10728459229536790070@JJ-Laptop>
+
+--===============0388033039==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<head style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'/>
+<meta content="width=device-width" name="viewport" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'/>
+<title style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'>Confirm your My Website your email address.</title>
+</head>
+<body class="body" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; width: 100%; height: 100%; line-height: 1.6em; background-color: #f6f6f6; font-family: -apple-system, BlinkMacSystemFont, Roboto, Ubuntu, Helvetica, sans-serif; line-height: initial; max-width: 580px;'><style>@media only screen and (max-width: 640px) { body { padding: 0 !important } h1, h2, h3, h4 { font-weight: 800 !important; margin: 20px 0 5px !important } h1 { font-size: 22px !important } h2 { font-size: 18px !important } h3 { font-size: 16px !important } .container { padding: 0 !important; width: 100% !important } .content { padding: 0 !important } .content-wrap { padding: 10px !important } .invoice { width: 100% !important } }</style>
+<header class="mt2 mb2" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin-bottom: 20px; margin-top: 20px;'>
+</header>
+<h1 style='box-sizing: border-box; font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #000; margin: 40px 0 0; line-height: 1.2em; font-size: 32px; font-weight: 500; box-sizing: border-box; font-size: 1.25rem; margin: 0; margin-bottom: 0.5em; padding: 0;'>Thanks for joining My Website.</h1>
+<p style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin-bottom: 10px; font-weight: normal; box-sizing: align:center;border-box; margin: 0; margin-bottom: 0.5em; padding: 0;'>Please confirm that your email address is correct to continue. Click the link below to confirm your account.</p>
+<p class="mt2 mb2 mt3--lg mb3--lg" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin-bottom: 10px; font-weight: normal; box-sizing: border-box; margin: 0; margin-bottom: 20px; margin-top: 20px; padding: 0;'>
+<span class="button__shadow" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; border-bottom: 2px solid rgba(0,0,0,0.1); border-radius: 4px; box-sizing: border-box; display: block; width: 100%;'>
+<a class="button" href="http://127.0.0.1:8000/accounts/confirm-email/MTI:1o0LWq:kYmtr2jThMf5dvqYp5i3GJ0yW1dKzbuNSn5513uJDFk/" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; color: #348eda; text-decoration: underline; background: #204dd5; border: 1px solid #000; border-radius: 3px; box-sizing: border-box; color: white; display: block; font-size: 1rem; font-weight: 600; padding: 12px 20px; text-align: center; text-decoration: none; width: 100%;' target="_blank">
+	Confirm Email Address</a>
+</span>
+</p>
+<p class="db mb1 gray" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin-bottom: 10px; font-weight: normal; box-sizing: border-box; color: #999; display: block; margin: 0; margin-bottom: 10px; padding: 0;'>Best, Team YourWebsiteName</p>
+<footer class="mt2 mt4--lg" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; border-top: 1px solid #D9D9D9; margin-top: 20px; padding: 20px 0;'>
+<ul style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin-bottom: 10px; font-weight: normal; box-sizing: border-box; list-style: none; margin: 0; margin-bottom: 0; padding: 0;'>
+<li style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin-left: 5px; list-style-position: inside; box-sizing: border-box; margin: 0; margin-bottom: 10px; padding: 0;'>
+<small style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; box-sizing: border-box; color: #999;'><a href="" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; color: #348eda; text-decoration: underline; border-bottom: 1px solid #E6E6E6; box-sizing: border-box; color: inherit; text-decoration: none;' target="_blank">Site</a></small>
+</li>
+<li style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin-left: 5px; list-style-position: inside; box-sizing: border-box; margin: 0; margin-bottom: 10px; padding: 0;'>
+<small style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; box-sizing: border-box; color: #999;'><a href="https://tapwater.co/privacy" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; color: #348eda; text-decoration: underline; border-bottom: 1px solid #E6E6E6; box-sizing: border-box; color: inherit; text-decoration: none;' target="_blank">Privacy</a></small>
+</li>
+<li style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin-left: 5px; list-style-position: inside; box-sizing: border-box; margin: 0; margin-bottom: 10px; padding: 0;'>
+<small style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; box-sizing: border-box; color: #999;'><a href="https://tapwater.co/terms" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; color: #348eda; text-decoration: underline; border-bottom: 1px solid #E6E6E6; box-sizing: border-box; color: inherit; text-decoration: none;' target="_blank">Terms</a></small>
+</li>
+</ul>
+</footer>
+</body>
+--===============0388033039==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px' xmlns="http://www.w3.org/1999/xhtml">
+<head style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'>
+<meta content="width=device-width" name="viewport" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'/>
+<title style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'>Registration confirmation email</title>
+</head>
+<body itemscope="" itemtype="http://schema.org/EmailMessage" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; width: 100%; height: 100%; line-height: 1.6em; background-color: #f6f6f6'><style>@media only screen and (max-width: 640px) { body { padding: 0 !important } h1, h2, h3, h4 { font-weight: 800 !important; margin: 20px 0 5px !important } h1 { font-size: 22px !important } h2 { font-size: 18px !important } h3 { font-size: 16px !important } .container { padding: 0 !important; width: 100% !important } .content { padding: 0 !important } .content-wrap { padding: 10px !important } .invoice { width: 100% !important } }</style>
+<table class="body-wrap" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; background-color: #f6f6f6; width: 100%'>
+<tr style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'>
+<td style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top'></td>
+<td class="container" style='font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; display: block; max-width: 600px; margin: 0 auto; clear: both' width="600">
+<div class="content" style='font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; max-width: 600px; margin: 0 auto; display: block; padding: 20px'>
+<table cellpadding="0" cellspacing="0" class="main" itemprop="action" itemscope="" itemtype="http://schema.org/ConfirmAction" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; background-color: #fff; border: 1px solid #e9e9e9; border-radius: 3px' width="100%">
+<tr style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'>
+<td class="content-wrap" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; padding: 20px'>
+<meta content="Confirm Email" itemprop="name" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'/>
+<table cellpadding="0" cellspacing="0" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px' width="100%">
+<tr style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'>
+<td class="content-block" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; padding: 0 0 20px'>
+										Please confirm your email address by clicking the link below.
+									</td>
+</tr>
+<tr style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'>
+<td class="content-block" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; padding: 0 0 20px'>
+										We may need to send you critical information about our service and it is important that we have an accurate email address.
+									</td>
+</tr>
+<tr style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'>
+<td class="content-block" itemprop="handler" itemscope="" itemtype="http://schema.org/HttpActionHandler" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; padding: 0 0 20px'>
+<a class="btn-primary" href="http://127.0.0.1:8000/accounts/confirm-email/MTI:1o0LWq:kYmtr2jThMf5dvqYp5i3GJ0yW1dKzbuNSn5513uJDFk/" itemprop="url" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; text-decoration: none; color: #FFF; background-color: #348eda; border: solid #348eda; border-width: 10px 20px; line-height: 2em; font-weight: bold; text-align: center; cursor: pointer; display: inline-block; border-radius: 5px; text-transform: capitalize'>Confirm email address</a>
+</td>
+</tr>
+<tr style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'>
+<td class="content-block" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; padding: 0 0 20px'>
+										&mdash; Gajesh Bhat
+									</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="footer" style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; width: 100%; clear: both; color: #999; padding: 20px'>
+<table style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px' width="100%">
+<tr style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px'>
+</tr>
+</table>
+</div></div>
+</td>
+<td style='margin: 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top'></td>
+</tr>
+</table>
+</body>
+</html>
+--===============0388033039==--
+
+-------------------------------------------------------------------------------

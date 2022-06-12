@@ -1,19 +1,22 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <a class="navbar-brand" href="/">SPM</a>
     <div class="navbar-header">
         <a class="navbar-brand" href="{% url 'home' %}">{{ request.user.username }}</a>
     </div>
     <ul class="nav navbar-top-links navbar-right">
+        {% if request.user.username %}
         <li>
             <a href="{% url 'account_logout' %}">
                 Logout
             </a>
         </li>
         <li>
-            <a href="{% url 'home' %}">
-                Dashboard
+            <a href="{% url 'account_change_password' %}">
+                Change Password
             </a>
         </li>
+        {% endif %}
         <!-- /.dropdown -->
     </ul>
 </nav>
