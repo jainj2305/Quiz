@@ -28,6 +28,9 @@ def home(request):
     return render(request, 'index.html', context=context)
 
 def view_quiz(request, url):
+    user = request.user
+    if user == AnonymousUser():
+        return redirect('account_login')
     quiz = Quiz.objects.get(user_friendly_url=url)
     try:
         score = Score.objects.get(
@@ -43,6 +46,9 @@ def view_quiz(request, url):
     return render(request, 'QuizApp/view.html', context=context)
 
 def start_quiz(request, url):
+    user = request.user
+    if user == AnonymousUser():
+        return redirect('account_login')
     quiz = Quiz.objects.get(user_friendly_url=url)
     if request.method!="POST":
         questions = quiz.questions.all()

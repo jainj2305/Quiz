@@ -1,11 +1,15 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from projects.models import Project, RequiredProjectFile, UploadedProjectFile
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from django.core.files.storage import FileSystemStorage
+from django.contrib.auth.models import AnonymousUser
 
 # Create your views here.
 
 def view(request, url):
+    user = request.user
+    if user == AnonymousUser():
+        return redirect('account_login')
     project = Project.objects.get(user_friendly_url = url)
     users = project.allocated_to.all()
     requiredProjectFiles = RequiredProjectFile.objects.all()
@@ -24,6 +28,9 @@ def view(request, url):
     return render(request, "projects/view.html", context)
 
 def upload_project_files(request, url, file_name):
+    user = request.user
+    if user == AnonymousUser():
+        return redirect('account_login')
     project = Project.objects.get(user_friendly_url = url)
     requiredProjectFile = RequiredProjectFile.objects.get(file_name = file_name)
     try:

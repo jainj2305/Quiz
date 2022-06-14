@@ -40,10 +40,9 @@
               <div class="panel-body">
                 <form class="container-fluid text-center" id="login_form" method="POST" action="{% url 'account_login' %}">
                     {% csrf_token %}
-                    <form class="container-fluid text-center" id="login_form" method="POST" action="{% url 'account_login' %}">
-                      {% csrf_token %}
-                      
-                      {{ form.as_p }}
+                    <div class="form-group"><input class="form-control" type="email" name="login" placeholder="E-mail address" autocomplete="email" required id="id_login"></div>
+                    <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password" autocomplete="current-password" required id="id_password"></div>
+                    <div class="checkbox"><label><input type="checkbox" name="remember" id="id_remember">Remember Me</label></div>
                     
                       {% if redirect_field_value %}
                       
@@ -51,8 +50,8 @@
                       
                       {% endif %}
                       
-                      <button  class="btn btn-outline-primary " type="submit">{% trans "Sign In" %}</button>
-                      <a  class="btn btn-outline-dark" href="{% url 'account_reset_password' %}">{% trans "Forgot Password ?" %}</a>  
+                      <button  class="btn btn-lg btn-primary btn-block" type="submit">{% trans "Sign In" %}</button>
+                      <a class="btn btn-outline-dark" href="{% url 'account_reset_password' %}">{% trans "Forgot Password ?" %}</a>  
                     
                     </form>
               </div>
