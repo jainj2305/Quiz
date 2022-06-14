@@ -40,6 +40,14 @@
 </head>
 
 <body>
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-success alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                {{message}}.
+            </div>
+        {% endfor %}
+    {% endif %}
     <div id="wrapper">
         <div class="navbar-default sidebar" role="navigation">
             <div class="sidebar-nav navbar-collapse">
@@ -78,12 +86,9 @@
             </div>
             <!-- /.sidebar-collapse -->
         </div>
-        {% block extra %} {% endblock %}
+        
+        {% include 'extra.html' %}
         {% block content%}
-    
-            {% block messages %}
-            {% endblock %}
-    
         {% endblock %}
         
         {% block main_content %}    
