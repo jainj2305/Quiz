@@ -43,7 +43,22 @@
               <div class="panel-body">
                 <form class="container-fluid text-center" id="signup_form" method="post" action="{% url 'account_signup' %}">
                   {% csrf_token %}
-
+                        {% if form.non_field_errors %}
+                            <ul class='form-errors'>
+                                {% for error in form.non_field_errors %}
+                                <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                        {% if form.errors %}
+                            {% for field in form %}
+                            <ul class='form-errors'>
+                                {% for error in field.errors %}
+                                    <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% endfor %}
+                        {% endif %}
                   <div class="form-group"><input class="form-control" type="email" name="email" placeholder="E-mail address" autocomplete="email" required="" id="id_email"></div>
                   <div class="form-group"><input class="form-control" type="password" name="password1" placeholder="Password" autocomplete="new-password" required="" id="id_password1"></div>
                   <div class="form-group"><input class="form-control" type="password" name="password2" placeholder="Password (again)" required="" id="id_password2"></div>
