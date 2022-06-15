@@ -65,11 +65,10 @@ def start_quiz(request, url):
         correct_answers = 0
         for key,value in request.POST.items():
             if key.find("answer")!=-1:
-                answer = Answer.objects.get(id=value[0])
+                answer = Answer.objects.get(id=value)
                 if answer.correct_answer:
                     marks_obtained+=answer.question.marks
                     correct_answers+=1
-            
 
         percentage_obtained = (marks_obtained/quiz.marks)*100
         try:
