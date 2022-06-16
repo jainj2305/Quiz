@@ -14,7 +14,6 @@ django-js-asset==1.2.2
 future==0.18.2
 idna==3.2
 mysql-connector-python==8.0.26
-mysqlclient
 oauthlib==3.1.1
 protobuf==3.18.0
 pycparser==2.20
